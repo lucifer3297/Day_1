@@ -1,0 +1,15 @@
+using System;
+					
+public class Program
+{
+	public static void Main(String[] args)
+	{
+		int x,y;
+		Console.WriteLine("Enter the value of x: ");
+		x = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("Enter the value of y ");
+		y = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("x + y = "+ (x+y).ToString());
+		Console.ReadLine();	
+	}
+}
